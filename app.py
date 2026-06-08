@@ -3,6 +3,11 @@ import plotly.express as px
 
 import pandas as pd
 
+git add .
+git commit -m "Add gunicorn to requirements"
+git push
+
+
 df = pd.read_csv('https://raw.githubusercontent.com/plotly/datasets/master/gapminderDataFiveYear.csv')
 
 app = Dash()
