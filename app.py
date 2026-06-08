@@ -5,7 +5,7 @@ import pandas as pd
 
 df = pd.read_csv('https://raw.githubusercontent.com/plotly/datasets/master/gapminderDataFiveYear.csv')
 
-app = Dash(_name_)
+app = Dash()
 server = app.server
 
 app.layout = html.Div([
